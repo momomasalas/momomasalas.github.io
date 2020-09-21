@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Momo Masalas
+full-width: true
 ---
 
 <html>
@@ -10,13 +10,74 @@ title: Momo Masalas
 <body>
 
 <div>
+<img src="assets/img/logo.png" alt="Momo Masalas" class="center" style="width:20%; height:20%">
 
-<h2 style="text-align:center">Open for Dine In (Patio), Delivery, & Takeout!</h2>
-<h3 style="text-align:center">Monday - Saturday, 12:00—6:00PM</h3>
-<h3 style="text-align:center">Call Now to Order: <a href="tel:-510-292-8367">(510) 292-8367</a></h3>
 </br>
-<img src="assets/img/specials.jpg" alt="Specials">
-<img src="assets/img/menu.jpg" alt="Main Menu">
+
+<h3 style="text-align:center;">Open for Dine In (Patio), Delivery, & Takeout!</h3>
+
+</br>
+
+<h3 style="text-align:center"><a href='link here'><button>Order Now</button></a></h3>
+
+</br>
+
+<div style="padding-left:200px; padding-right:200px">
+<div class="row-menu">
+  <div class="column-menu">
+    <img src="assets/img/specials.jpg" alt="Specials" style="width:100%">
+  </div>
+  <div class="column-menu">
+    <img src="assets/img/menu.jpg" alt="Main Menu" style="width:100%">
+  </div>
+</div>
+</div>
+
+<div style="padding-top:100px; padding-bottom: 30px">
+	<h2 style="text-align:center">Contact Us</h2>
+</div>
+
+<div style="margin: auto; height: 400px; width: 70%;" id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 37.875325, lng: -122.259695};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 14, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCErGSofTuEARlXy2c-CSkgJb-x5-gZmk&callback=initMap">
+    </script>
+
+
+<div style="padding-top:50px; padding-left:170px; padding-right:170px">
+<div class="row-info">
+  <div class="column-info">
+    <h3 style="text-align:center">Phone</h2>
+    <p style="text-align:center"><a href="tel:-510-292-8367">(510) 292-8367</a></p>
+  </div>
+  <div class="column-info">
+    <h3 style="text-align:center">Address</h2>
+    <p style="text-align:center">2505 Hearst Ave</p>
+    <p style="text-align:center">Berkeley, CA 94709</p>
+  </div>
+  <div class="column-info">
+    <h3 style="text-align:center">Hours</h2>
+    <table width=100%>
+		<tr><th>Sunday</th><td>Closed</td></tr>
+		<tr><th>Monday—Saturday</th><td>12 - 6pm</td></tr>
+		
+	</table>
+  </div>
+</div>
+</div>
+
+
 </div>
 
 </body>
