@@ -16,13 +16,16 @@ author: Friends of Momo Masalas
 
 # --- List of links in the navigation bar --- #
 
-# navbar-links:
+navbar-links:
+  Order: "https://momomasalas.square.site/"
+  Call Us: "tel:+1-510-292-8367"
+  Directions: "https://www.google.com/maps/dir//MoMo+Masalas,+2505+Hearst+Ave+B,+Berkeley,+CA+94709/@37.8753077,-122.2619178,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x80857c2162c65187:0xd16847c37f0388af!2m2!1d-122.2597291!2d37.8753077!3e0"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-# avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/logo1.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 # round-avatar: true
@@ -93,7 +96,7 @@ keywords: "momo,masalas,momomasalas"
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-text-col: "#5629a3"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
