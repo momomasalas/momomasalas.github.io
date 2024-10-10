@@ -4,6 +4,5 @@ source "https://rubygems.org"
 
 gemspec
 
-gem 'ruby'
-gem 'github-pages'
+gem 'github-pages', '>=104', group: :jekyll_plugins
 
