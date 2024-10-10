@@ -11,6 +11,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    ruby (2.7.0)
     activesupport (7.1.4)
       base64
       bigdecimal
