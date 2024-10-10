@@ -274,7 +274,6 @@ DEPENDENCIES
   bundler (>= 1.16)
   github-pages
   rake (~> 12.0)
-  ruby (2.7.0)
 
 BUNDLED WITH
    2.2.4
